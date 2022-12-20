@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Toast "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_toggle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Toggle Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.463"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_toast" />
+
+        <Button
+            android:id="@+id/btn_checkBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="CheckBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_toggle" />
+
+        <Button
+            android:id="@+id/btn_radio"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Radio Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_checkBox" />
+
+        <Button
+            android:id="@+id/btn_alert"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Alert Dialog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_radio" />
+
+        <Button
+            android:id="@+id/lst"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="ListView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_alert" />
+
+        <Button
+            android:id="@+id/btn_spinner"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Spinner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lst" />
+
+        <Button
+            android:id="@+id/btn_autoCom"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="AutoCompleteTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_spinner" />
+
+        <Button
+            android:id="@+id/btn_webView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#00BCD4"
+            android:text="WebView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_autoCom" />
+
+        <Button
+            android:id="@+id/btn_ratting"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="RatingBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_webView" />
+
+        <Button
+            android:id="@+id/btn_seekbar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="SeekBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ratting" />
+
+        <Button
+            android:id="@+id/btn_datePicker"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="DatePicker"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_seekbar" />
+
+        <Button
+            android:id="@+id/btn_timePicker"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="TimePicker"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_datePicker" />
+
+        <Button
+            android:id="@+id/btn_progressBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="ProgressBar"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="822dp" />
+
+        <Button
+            android:id="@+id/btn_recycleView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="RecycleView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_viewPager"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="ViewPager"
+            tools:layout_marginStart="75dp" />
+
+        <Button
+            android:id="@+id/btn_swipeRefreshLayout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Swipe Refresh Layout"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
